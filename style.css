@@ -223,33 +223,38 @@ section {
 
 }
 
-.reviews-content h1:first-of-type {
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-bottom: 7%;
+.reviews-content {
+  width: 100%;
+}
+
+.reviews-content h1 {
+  margin: 0;
   width: 100%;
   font-size: 4.3rem;
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.reviews-content h1:first-of-type {
+ margin-bottom: 5rem;
 }
 
 .reviews-content a {
   font-size: 3.5rem;
-  margin-left: 0%;
-  margin-bottom: 7%;
+  margin-bottom: 2rem;
+ 
 }
 
 .reviews-content h1:last-of-type {
-  margin-left: 0%;
-  margin-bottom: 3%;
-  width: 100%;
-  font-size: 4.3rem;
-  line-height: 1.2;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+   margin-bottom: 3%;
+   margin-top: 12rem;
+  
+}
+
+.reviews-content h2 {
+    margin-top: 0;
 }
 
 .home-content img {
