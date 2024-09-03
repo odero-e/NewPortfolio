@@ -286,6 +286,15 @@ section {
   margin-left: 8px;
 }
 
+.email-text {
+  color: var(--text-color);
+  transition: color 0.3s; /* Smooth transition effect */
+}
+
+a:hover .email-text {
+  color: skyblue; /* Color on hover */
+}
+
 .reviews-content h1:last-of-type {
    margin-bottom: 3%;
    margin-top: 12rem;
