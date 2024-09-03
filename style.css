@@ -492,13 +492,13 @@ span {
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-1 h1:nth-of-type(2) {
+.projects-box-1 h1:last-of-type {
   margin-top: -10px; 
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-1 h1:last-of-type {
+.projects-box-1 a {
   margin-top: 70px; 
   font-size: 1.8rem;
   font-family: "Oswald", sans-serif;
@@ -507,6 +507,10 @@ span {
   font-weight: 100;
   line-height: 1.8;
 
+}
+
+.magna {
+  color: var(--text-color);
 }
 
 .projects-box-1 a {
@@ -532,7 +536,7 @@ span {
   filter: invert(1);              
 }
 
-.projects-box-1 h1:last-of-type::after {
+.projects-box-1 a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -544,7 +548,7 @@ span {
 }
 
 
-.projects-box-1 h1:last-of-type:hover::after {
+.projects-box-1 a:hover::after {
   width: 100%; 
 }
 
@@ -616,13 +620,13 @@ span {
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-2 h1:nth-of-type(2) {
+.projects-box-2 h1:last-of-type {
   margin-top: -10px; 
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-2 h1:last-of-type {
+.projects-box-2 a {
   margin-top: 70px; 
   font-size: 1.8rem;
   font-family: "Oswald", sans-serif;
@@ -633,7 +637,11 @@ span {
 
 }
 
-.projects-box-2 h1:last-of-type::after {
+.safarika {
+  color: var(--text-color);
+}
+
+.projects-box-2 a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -645,7 +653,7 @@ span {
 }
 
 
-.projects-box-2 h1:last-of-type:hover::after {
+.projects-box-2 a:hover::after {
   width: 100%; 
 }
 
@@ -716,13 +724,13 @@ span {
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-3 h1:nth-of-type(2) {
+.projects-box-3 h1:last-of-type {
   margin-top: -10px; 
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-3 h1:last-of-type {
+.projects-box-3 a {
   margin-top: 70px; 
   font-size: 1.8rem;
   font-family: "Oswald", sans-serif;
@@ -733,7 +741,7 @@ span {
 
 }
 
-.projects-box-3 h1:last-of-type::after {
+.projects-box-3 a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -745,8 +753,12 @@ span {
 }
 
 
-.projects-box-3 h1:last-of-type:hover::after {
+.projects-box-3 a:hover::after {
   width: 100%; 
+}
+
+.heatrow {
+  color: var(--text-color);
 }
 
 .projects-bax-image-4 {
@@ -787,13 +799,13 @@ span {
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-4 h1:nth-of-type(2) {
+.projects-box-4 h1:last-of-type {
   margin-top: -10px; 
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 
-.projects-box-4 h1:last-of-type {
+.projects-box-4 a {
   margin-top: 70px; 
   font-size: 1.8rem;
   font-family: "Oswald", sans-serif;
@@ -804,7 +816,7 @@ span {
 
 }
 
-.projects-box-4 h1:last-of-type::after {
+.projects-box-4 a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -816,8 +828,12 @@ span {
 }
 
 
-.projects-box-4 h1:last-of-type:hover::after {
+.projects-box-4 a:hover::after {
   width: 100%; 
+}
+
+.otieno {
+  color: var(--text-color);
 }
 
 .services-container{
