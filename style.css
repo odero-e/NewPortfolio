@@ -987,7 +987,7 @@ span {
 
 .footer-line {
   border: 0; /* Remove default border */
-  height: 1px; /* Set height for the line */
+  height: 2px; /* Set height for the line */
   background-color: var(--text-color); /* Line color */
   margin: 0; /* Remove margin if needed */
   width: 100%; /* Full width of the container */
