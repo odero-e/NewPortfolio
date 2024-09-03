@@ -282,6 +282,10 @@ section {
  
 }
 
+.reviews-content img {
+  margin-left: 8px;
+}
+
 .reviews-content h1:last-of-type {
    margin-bottom: 3%;
    margin-top: 12rem;
@@ -290,6 +294,11 @@ section {
 
 .reviews-content h2 {
     margin-top: 0;
+}
+
+.reviews-content img {
+  filter: invert(1);
+  font-size: 5px;
 }
 
 .home-content img {
