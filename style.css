@@ -138,6 +138,29 @@ section {
   font-family: "Oswald", sans-serif;
 }
 
+.navbar1 {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 30px; /* Space between the navbar items */
+    margin-top: 40px; /* Adds space above the navbar */
+    padding-left: 0; /* Remove default padding */
+    list-style: none; /* Remove any default list styling */
+    font-size: 1.8rem;
+
+}
+
+.navbar1 a {
+    text-decoration: none; /* Removes underline from links */
+    color: var(--text-color); /* Change text color as needed */
+    display: flex;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    
+}
+
+
+
 .nav-image {
   width: 15px;
   height: 20px;
@@ -216,7 +239,7 @@ section {
 .reviews {
   justify-content: center;
   align-content: center;
-  display: flex;
+  display: block;
   width: 70%;
   margin-left: 12%;
   font-style: normal;
